@@ -1072,7 +1072,7 @@ section#mt_project .col-sm-12.col-xs-12{
 section#mt_project .project-image{
     position: relative;
     overflow: hidden;
-    background: #000;
+    background: #000000d6;
     text-align: center;
     cursor: pointer;
 }
@@ -1973,7 +1973,7 @@ section#mt_faq-testi .section_heading{padding: 0;}
 #mt_footer:before {
     content: '';
     position: absolute;
-    background: #000000d6;
+    background: #0d84b3;
     height: 100%;
     width: 100%;
     top: 0;
