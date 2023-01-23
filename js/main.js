@@ -182,13 +182,15 @@ jQuery(window).on('load', function() {
                     }
                     else {
                         $('#msg').show();
-                        $('#msg').html('<div class="mt_error">'+ response['msg'] +'</div>');
+                        $('#msg').html('<div class="mt_error">Serviço temporariamente indiponível</div>');
                     }
                 }
             },
             error: function () {
                 $('#msg').show();
-                $('#msg').html('<div class="mt_error">Errors occur. Please try again later.</div>');
+                var message = '<div class="mt_error">Serviço temporariamente indiponível. <br>';
+                message += 'Contacta-nos pelo email info@serralhariaalegria.co.mz</p</div>';
+                $('#msg').html(message);
             },
             complete: function () {
                 $('.mt_load').hide();
